@@ -1,0 +1,48 @@
+//
+//  Public.pch
+//  PGGVideo
+//
+//  Created by 陈鹏 on 2017/11/17.
+//  Copyright © 2017年 penggege.CP. All rights reserved.
+//
+
+#ifndef Public_pch
+#define Public_pch
+
+#define    Tag_PERMIT 10086
+#define    k_MARGIN    15
+#define    kScreen_Width [UIScreen mainScreen].bounds.size.width
+#define    kScreen_Height [UIScreen mainScreen].bounds.size.height
+#define    kDevice_Is_iPhoneX ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size) : NO)
+#define    kStatusBar_Height kDevice_Is_iPhoneX?44:20
+#define    kTableView_Height kDevice_Is_iPhoneX?88:64
+#define    kHeight_Marg kDevice_Is_iPhoneX?90:60
+#define    kPhotoHeight_Marg kDevice_Is_iPhoneX?120:90
+
+#define    KTableView_H kDevice_Is_iPhoneX?kScreen_Height-88-34:kScreen_Height-64
+#define    VERSION_INFO_CURRENT @"Bundle version"
+
+#define    PGG3D_TouchShare @"com.penggege.share"
+#define    PGG3D_TouchPhoto @"com.penggege.photo"
+#define    PGG3D_TouchAR @"com.penggege.ar"
+
+#define RGBColor(r,g,b,a) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]
+
+//如果iOS的系统是11.0，会有这样一个宏定义“#define __IPHONE_11_0  110000”；如果系统版本低于11.0则没有这个宏定义
+#ifdef __IPHONE_11_0
+if ([tableView respondsToSelector:@selector(setContentInsetAdjustmentBehavior:)]) {
+    tableView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
+}
+#endif
+
+//打印
+#ifdef DEBUG
+#define PGGLog(fmt, ...) NSLog(fmt, ## __VA_ARGS__)
+#else
+#define PGGLog(fmt, ...) nil
+#endif
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* Public_pch */

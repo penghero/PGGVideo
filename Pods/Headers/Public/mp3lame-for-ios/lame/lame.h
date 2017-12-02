@@ -1,0 +1,1 @@
+../../../../mp3lame-for-ios/lame.framework/Headers/lame.h

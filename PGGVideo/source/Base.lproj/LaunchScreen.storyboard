@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fcG-EY-9Ci"/>
+                        <viewControllerLayoutGuide type="bottom" id="Voa-Vi-2os"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright © 2017年 penggege.CP. All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RtL-QA-5KU">
+                                <rect key="frame" x="0.0" y="539" width="375" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="29" id="Odu-OC-i0s"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="欢迎使用鹏哥哥Video" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="igf-sE-h8T">
+                                <rect key="frame" x="-28" y="150" width="375" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="cnw-WN-Lr0"/>
+                                    <constraint firstAttribute="width" constant="375" id="zrB-mt-pmt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="代码地址：" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Waz-ZT-jTg">
+                                <rect key="frame" x="0.0" y="473" width="375" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="375" id="1gY-v9-OtS"/>
+                                    <constraint firstAttribute="height" constant="29" id="faY-sv-wD2"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="29" id="iYc-5U-Em9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="RtL-QA-5KU" firstAttribute="top" secondItem="Waz-ZT-jTg" secondAttribute="bottom" constant="37" id="23O-qX-LLP"/>
+                            <constraint firstItem="igf-sE-h8T" firstAttribute="top" secondItem="fcG-EY-9Ci" secondAttribute="bottom" constant="130" id="7o1-GP-gMX"/>
+                            <constraint firstItem="igf-sE-h8T" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="WSE-zn-OIv"/>
+                            <constraint firstItem="RtL-QA-5KU" firstAttribute="bottom" secondItem="Voa-Vi-2os" secondAttribute="top" id="crU-fT-NqG"/>
+                            <constraint firstItem="RtL-QA-5KU" firstAttribute="trailing" secondItem="Waz-ZT-jTg" secondAttribute="trailing" id="dB9-eA-DbP"/>
+                            <constraint firstItem="Waz-ZT-jTg" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="dnM-LZ-AXH"/>
+                            <constraint firstItem="RtL-QA-5KU" firstAttribute="leading" secondItem="Waz-ZT-jTg" secondAttribute="leading" id="hMX-3X-fQ4"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+</document>

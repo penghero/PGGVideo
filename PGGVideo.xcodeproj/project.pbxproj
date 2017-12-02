@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A69AFC403F8848D3193CF9A /* libPods-PGGVideo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FBD2F087957B5385B96249F4 /* libPods-PGGVideo.a */; };
+		741BEBF71FC3D5C300A8C488 /* guide_arrow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 741BEBF41FC3D5C200A8C488 /* guide_arrow@3x.png */; };
+		741BEBF81FC3D5C300A8C488 /* XCGuideMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = 741BEBF61FC3D5C200A8C488 /* XCGuideMaskView.m */; };
 		7420865F1FBD1F2500EA1ED6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7420865E1FBD1F2500EA1ED6 /* AppDelegate.m */; };
 		742086621FBD1F2500EA1ED6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 742086611FBD1F2500EA1ED6 /* ViewController.m */; };
 		742086651FBD1F2500EA1ED6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 742086631FBD1F2500EA1ED6 /* Main.storyboard */; };
@@ -15,6 +18,87 @@
 		7420866D1FBD1F2500EA1ED6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7420866C1FBD1F2500EA1ED6 /* main.m */; };
 		742086771FBD1F2500EA1ED6 /* PGGVideoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 742086761FBD1F2500EA1ED6 /* PGGVideoTests.m */; };
 		742086821FBD1F2500EA1ED6 /* PGGVideoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 742086811FBD1F2500EA1ED6 /* PGGVideoUITests.m */; };
+		742086991FBD422100EA1ED6 /* PGG_SelfieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 742086981FBD422100EA1ED6 /* PGG_SelfieViewController.m */; };
+		7420869C1FBD423100EA1ED6 /* PGG_VideoPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7420869B1FBD423100EA1ED6 /* PGG_VideoPlayViewController.m */; };
+		7420869F1FBD424200EA1ED6 /* PGG_VideoEditingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7420869E1FBD424200EA1ED6 /* PGG_VideoEditingViewController.m */; };
+		742086A21FBD425000EA1ED6 /* PGG_BeautyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 742086A11FBD425000EA1ED6 /* PGG_BeautyViewController.m */; };
+		742086A51FBD425D00EA1ED6 /* PGG_ARViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 742086A41FBD425D00EA1ED6 /* PGG_ARViewController.m */; };
+		7421ACED1FC50983009AB03A /* DHGifImageOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7421ACE91FC50982009AB03A /* DHGifImageOperation.m */; };
+		7421ACEE1FC50983009AB03A /* DHGuidePageHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 7421ACEB1FC50982009AB03A /* DHGuidePageHUD.m */; };
+		7421ACEF1FC50983009AB03A /* GuideImage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7421ACEC1FC50982009AB03A /* GuideImage.bundle */; };
+		7421ACF11FC50A6F009AB03A /* guideMovie.mov in Resources */ = {isa = PBXBuildFile; fileRef = 7421ACF01FC50A6E009AB03A /* guideMovie.mov */; };
+		7421ACF51FC5195B009AB03A /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 7421ACF41FC5195B009AB03A /* Utility.m */; };
+		74444E1D1FCFA46A00BB5492 /* PGG_DownLoadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74444E1C1FCFA46A00BB5492 /* PGG_DownLoadViewController.m */; };
+		74444E201FCFD41600BB5492 /* PGG_DownModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 74444E1F1FCFD41600BB5492 /* PGG_DownModel.m */; };
+		744AFADD1FBE6E3F00141173 /* FastForwardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 744AFAD61FBE6E3F00141173 /* FastForwardView.m */; };
+		744AFADE1FBE6E3F00141173 /* FastForwardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 744AFAD71FBE6E3F00141173 /* FastForwardView.xib */; };
+		744AFADF1FBE6E3F00141173 /* WMLightView.m in Sources */ = {isa = PBXBuildFile; fileRef = 744AFAD91FBE6E3F00141173 /* WMLightView.m */; };
+		744AFAE01FBE6E3F00141173 /* WMPlayer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 744AFADA1FBE6E3F00141173 /* WMPlayer.bundle */; };
+		744AFAE11FBE6E3F00141173 /* WMPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 744AFADC1FBE6E3F00141173 /* WMPlayer.m */; };
+		744AFAEA1FBE795000141173 /* PGGVideoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 744AFAE91FBE795000141173 /* PGGVideoModel.m */; };
+		744AFAEE1FBE7A8800141173 /* PGGVideoViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 744AFAEC1FBE7A8800141173 /* PGGVideoViewCell.m */; };
+		744AFAEF1FBE7A8800141173 /* PGGVideoViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 744AFAED1FBE7A8800141173 /* PGGVideoViewCell.xib */; };
+		744AFAF61FBE8D1300141173 /* PGG_DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 744AFAF41FBE8D1300141173 /* PGG_DetailViewController.m */; };
+		747689061FCC4FA800320BB2 /* PGG_AudioUtillty.m in Sources */ = {isa = PBXBuildFile; fileRef = 747689051FCC4FA800320BB2 /* PGG_AudioUtillty.m */; };
+		74AE97861FCD4ED500938C89 /* NSString+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AE97841FCD4ED500938C89 /* NSString+Category.m */; };
+		74AE97871FCD4ED500938C89 /* UIImage+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AE97851FCD4ED500938C89 /* UIImage+Category.m */; };
+		74AE978A1FCD54D700938C89 /* PGG_PlayAudioController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AE97891FCD54D700938C89 /* PGG_PlayAudioController.m */; };
+		74D4C68D1FD0F24200768D19 /* PGG_DownCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D4C68B1FD0F24200768D19 /* PGG_DownCell.m */; };
+		74D4C68E1FD0F24200768D19 /* PGG_DownCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74D4C68C1FD0F24200768D19 /* PGG_DownCell.xib */; };
+		74F5CB741FCAE212003409D6 /* PGG_NetWorking.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F5CB731FCAE212003409D6 /* PGG_NetWorking.m */; };
+		74F5CB761FCAFC31003409D6 /* pggmusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 74F5CB751FCAFC31003409D6 /* pggmusic.mp3 */; };
+		74F5CB7D1FCBBB3E003409D6 /* GPUImageBeautifyFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F5CB7C1FCBBB3E003409D6 /* GPUImageBeautifyFilter.m */; };
+		74F5CBE41FCBFE15003409D6 /* HXAlbumListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F5CB801FCBFE14003409D6 /* HXAlbumListView.m */; };
+		74F5CBE51FCBFE15003409D6 /* HXAlbumListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F5CB821FCBFE14003409D6 /* HXAlbumListViewController.m */; };
+		74F5CBE61FCBFE15003409D6 /* HXAlbumModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F5CB841FCBFE14003409D6 /* HXAlbumModel.m */; };
+		74F5CBE71FCBFE15003409D6 /* HXAlbumTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F5CB861FCBFE14003409D6 /* HXAlbumTitleButton.m */; };
+		74F5CBE81FCBFE15003409D6 /* HXCameraPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F5CB881FCBFE14003409D6 /* HXCameraPreviewViewController.m */; };
+		74F5CBE91FCBFE15003409D6 /* HXCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F5CB8A1FCBFE14003409D6 /* HXCameraViewController.m */; };
+		74F5CBEA1FCBFE15003409D6 /* HXCircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F5CB8C1FCBFE14003409D6 /* HXCircleProgressView.m */; };
+		74F5CBEB1FCBFE15003409D6 /* HXCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F5CB8E1FCBFE14003409D6 /* HXCollectionView.m */; };
+		74F5CBEC1FCBFE15003409D6 /* HXCustomCameraController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F5CB901FCBFE14003409D6 /* HXCustomCameraController.m */; };
+		74F5CBED1FCBFE15003409D6 /* HXCustomCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F5CB921FCBFE14003409D6 /* HXCustomCameraViewController.m */; };
+		74F5CBEE1FCBFE15003409D6 /* HXCustomCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F5CB941FCBFE14003409D6 /* HXCustomCollectionReusableView.m */; };
+		74F5CBEF1FCBFE15003409D6 /* HXCustomNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F5CB961FCBFE14003409D6 /* HXCustomNavigationController.m */; };
+		74F5CBF01FCBFE15003409D6 /* HXCustomPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F5CB981FCBFE14003409D6 /* HXCustomPreviewView.m */; };
+		74F5CBF11FCBFE15003409D6 /* HXDatePhotoEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F5CB9A1FCBFE14003409D6 /* HXDatePhotoEditViewController.m */; };
+		74F5CBF21FCBFE15003409D6 /* HXDatePhotoInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F5CB9C1FCBFE14003409D6 /* HXDatePhotoInteractiveTransition.m */; };
+		74F5CBF31FCBFE15003409D6 /* HXDatePhotoPreviewBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F5CB9E1FCBFE14003409D6 /* HXDatePhotoPreviewBottomView.m */; };
+		74F5CBF41FCBFE15003409D6 /* HXDatePhotoPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F5CBA01FCBFE14003409D6 /* HXDatePhotoPreviewViewController.m */; };
+		74F5CBF51FCBFE15003409D6 /* HXDatePhotoToolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F5CBA21FCBFE14003409D6 /* HXDatePhotoToolManager.m */; };
+		74F5CBF61FCBFE15003409D6 /* HXDatePhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F5CBA41FCBFE14003409D6 /* HXDatePhotoViewController.m */; };
+		74F5CBF71FCBFE15003409D6 /* HXDatePhotoViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F5CBA61FCBFE14003409D6 /* HXDatePhotoViewFlowLayout.m */; };
+		74F5CBF81FCBFE15003409D6 /* HXDatePhotoViewPresentTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F5CBA81FCBFE14003409D6 /* HXDatePhotoViewPresentTransition.m */; };
+		74F5CBF91FCBFE15003409D6 /* HXDatePhotoViewTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F5CBAA1FCBFE14003409D6 /* HXDatePhotoViewTransition.m */; };
+		74F5CBFA1FCBFE15003409D6 /* HXDownloadProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F5CBAC1FCBFE14003409D6 /* HXDownloadProgressView.m */; };
+		74F5CBFB1FCBFE15003409D6 /* HXFullScreenCameraPlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F5CBAE1FCBFE14003409D6 /* HXFullScreenCameraPlayView.m */; };
+		74F5CBFC1FCBFE15003409D6 /* HXFullScreenCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F5CBB01FCBFE14003409D6 /* HXFullScreenCameraViewController.m */; };
+		74F5CBFD1FCBFE15003409D6 /* HXPhoto3DTouchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F5CBB21FCBFE14003409D6 /* HXPhoto3DTouchViewController.m */; };
+		74F5CBFE1FCBFE15003409D6 /* HXPhotoCustomNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F5CBB41FCBFE14003409D6 /* HXPhotoCustomNavigationBar.m */; };
+		74F5CBFF1FCBFE15003409D6 /* HXPhotoEditView.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F5CBB61FCBFE14003409D6 /* HXPhotoEditView.m */; };
+		74F5CC001FCBFE15003409D6 /* HXPhotoEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F5CBB81FCBFE14003409D6 /* HXPhotoEditViewController.m */; };
+		74F5CC011FCBFE15003409D6 /* HXPhotoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F5CBBA1FCBFE14003409D6 /* HXPhotoManager.m */; };
+		74F5CC021FCBFE15003409D6 /* HXPhotoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F5CBBC1FCBFE14003409D6 /* HXPhotoModel.m */; };
+		74F5CC031FCBFE15003409D6 /* HXPhotoPreviewViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F5CBBE1FCBFE14003409D6 /* HXPhotoPreviewViewCell.m */; };
+		74F5CC041FCBFE15003409D6 /* HXPhotoPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F5CBC01FCBFE14003409D6 /* HXPhotoPreviewViewController.m */; };
+		74F5CC051FCBFE15003409D6 /* HXPhotoResultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F5CBC21FCBFE14003409D6 /* HXPhotoResultModel.m */; };
+		74F5CC061FCBFE15003409D6 /* HXPhotoSubViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F5CBC41FCBFE14003409D6 /* HXPhotoSubViewCell.m */; };
+		74F5CC071FCBFE15003409D6 /* HXPhotoTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F5CBC61FCBFE14003409D6 /* HXPhotoTools.m */; };
+		74F5CC081FCBFE15003409D6 /* HXPhotoUIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F5CBC81FCBFE14003409D6 /* HXPhotoUIManager.m */; };
+		74F5CC091FCBFE15003409D6 /* HXPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F5CBCA1FCBFE14003409D6 /* HXPhotoView.m */; };
+		74F5CC0A1FCBFE15003409D6 /* HXPhotoViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F5CBCC1FCBFE14003409D6 /* HXPhotoViewCell.m */; };
+		74F5CC0B1FCBFE15003409D6 /* HXPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F5CBCE1FCBFE14003409D6 /* HXPhotoViewController.m */; };
+		74F5CC0C1FCBFE15003409D6 /* HXPresentTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F5CBD01FCBFE14003409D6 /* HXPresentTransition.m */; };
+		74F5CC0D1FCBFE15003409D6 /* HXTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F5CBD21FCBFE14003409D6 /* HXTransition.m */; };
+		74F5CC0E1FCBFE15003409D6 /* HXVideoPresentTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F5CBD41FCBFE14003409D6 /* HXVideoPresentTransition.m */; };
+		74F5CC0F1FCBFE15003409D6 /* HXVideoPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F5CBD61FCBFE14003409D6 /* HXVideoPreviewViewController.m */; };
+		74F5CC101FCBFE15003409D6 /* HXWeiboPhotoPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 74F5CBD71FCBFE14003409D6 /* HXWeiboPhotoPicker.bundle */; };
+		74F5CC111FCBFE15003409D6 /* NSBundle+HXWeiboPhotoPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F5CBD91FCBFE14003409D6 /* NSBundle+HXWeiboPhotoPicker.m */; };
+		74F5CC121FCBFE15003409D6 /* NSDate+HXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F5CBDB1FCBFE14003409D6 /* NSDate+HXExtension.m */; };
+		74F5CC131FCBFE15003409D6 /* UIButton+HXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F5CBDD1FCBFE14003409D6 /* UIButton+HXExtension.m */; };
+		74F5CC141FCBFE15003409D6 /* UIFont+HXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F5CBDF1FCBFE14003409D6 /* UIFont+HXExtension.m */; };
+		74F5CC151FCBFE15003409D6 /* UIImage+HXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F5CBE11FCBFE14003409D6 /* UIImage+HXExtension.m */; };
+		74F5CC161FCBFE15003409D6 /* UIView+HXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F5CBE31FCBFE14003409D6 /* UIView+HXExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +119,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		253093261F8EFE0725436A6D /* Pods-PGGVideo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PGGVideo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PGGVideo/Pods-PGGVideo.debug.xcconfig"; sourceTree = "<group>"; };
+		741BEBF41FC3D5C200A8C488 /* guide_arrow@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "guide_arrow@3x.png"; sourceTree = "<group>"; };
+		741BEBF51FC3D5C200A8C488 /* XCGuideMaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCGuideMaskView.h; sourceTree = "<group>"; };
+		741BEBF61FC3D5C200A8C488 /* XCGuideMaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCGuideMaskView.m; sourceTree = "<group>"; };
 		7420865A1FBD1F2500EA1ED6 /* PGGVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PGGVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7420865D1FBD1F2500EA1ED6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7420865E1FBD1F2500EA1ED6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +139,163 @@
 		7420867D1FBD1F2500EA1ED6 /* PGGVideoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PGGVideoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		742086811FBD1F2500EA1ED6 /* PGGVideoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGGVideoUITests.m; sourceTree = "<group>"; };
 		742086831FBD1F2500EA1ED6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		742086971FBD422100EA1ED6 /* PGG_SelfieViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGG_SelfieViewController.h; sourceTree = "<group>"; };
+		742086981FBD422100EA1ED6 /* PGG_SelfieViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGG_SelfieViewController.m; sourceTree = "<group>"; };
+		7420869A1FBD423100EA1ED6 /* PGG_VideoPlayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGG_VideoPlayViewController.h; sourceTree = "<group>"; };
+		7420869B1FBD423100EA1ED6 /* PGG_VideoPlayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGG_VideoPlayViewController.m; sourceTree = "<group>"; };
+		7420869D1FBD424200EA1ED6 /* PGG_VideoEditingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGG_VideoEditingViewController.h; sourceTree = "<group>"; };
+		7420869E1FBD424200EA1ED6 /* PGG_VideoEditingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGG_VideoEditingViewController.m; sourceTree = "<group>"; };
+		742086A01FBD425000EA1ED6 /* PGG_BeautyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGG_BeautyViewController.h; sourceTree = "<group>"; };
+		742086A11FBD425000EA1ED6 /* PGG_BeautyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGG_BeautyViewController.m; sourceTree = "<group>"; };
+		742086A31FBD425D00EA1ED6 /* PGG_ARViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGG_ARViewController.h; sourceTree = "<group>"; };
+		742086A41FBD425D00EA1ED6 /* PGG_ARViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGG_ARViewController.m; sourceTree = "<group>"; };
+		7421ACE81FC50982009AB03A /* DHGifImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHGifImageOperation.h; sourceTree = "<group>"; };
+		7421ACE91FC50982009AB03A /* DHGifImageOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHGifImageOperation.m; sourceTree = "<group>"; };
+		7421ACEA1FC50982009AB03A /* DHGuidePageHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHGuidePageHUD.h; sourceTree = "<group>"; };
+		7421ACEB1FC50982009AB03A /* DHGuidePageHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHGuidePageHUD.m; sourceTree = "<group>"; };
+		7421ACEC1FC50982009AB03A /* GuideImage.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GuideImage.bundle; sourceTree = "<group>"; };
+		7421ACF01FC50A6E009AB03A /* guideMovie.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = guideMovie.mov; sourceTree = "<group>"; };
+		7421ACF31FC5195B009AB03A /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		7421ACF41FC5195B009AB03A /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+		74444E1B1FCFA46A00BB5492 /* PGG_DownLoadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGG_DownLoadViewController.h; sourceTree = "<group>"; };
+		74444E1C1FCFA46A00BB5492 /* PGG_DownLoadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGG_DownLoadViewController.m; sourceTree = "<group>"; };
+		74444E1E1FCFD41600BB5492 /* PGG_DownModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGG_DownModel.h; sourceTree = "<group>"; };
+		74444E1F1FCFD41600BB5492 /* PGG_DownModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGG_DownModel.m; sourceTree = "<group>"; };
+		744AFAD51FBE6E3F00141173 /* FastForwardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FastForwardView.h; sourceTree = "<group>"; };
+		744AFAD61FBE6E3F00141173 /* FastForwardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FastForwardView.m; sourceTree = "<group>"; };
+		744AFAD71FBE6E3F00141173 /* FastForwardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FastForwardView.xib; sourceTree = "<group>"; };
+		744AFAD81FBE6E3F00141173 /* WMLightView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMLightView.h; sourceTree = "<group>"; };
+		744AFAD91FBE6E3F00141173 /* WMLightView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMLightView.m; sourceTree = "<group>"; };
+		744AFADA1FBE6E3F00141173 /* WMPlayer.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WMPlayer.bundle; sourceTree = "<group>"; };
+		744AFADB1FBE6E3F00141173 /* WMPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMPlayer.h; sourceTree = "<group>"; };
+		744AFADC1FBE6E3F00141173 /* WMPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMPlayer.m; sourceTree = "<group>"; };
+		744AFAE81FBE795000141173 /* PGGVideoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGGVideoModel.h; sourceTree = "<group>"; };
+		744AFAE91FBE795000141173 /* PGGVideoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGGVideoModel.m; sourceTree = "<group>"; };
+		744AFAEB1FBE7A8800141173 /* PGGVideoViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGGVideoViewCell.h; sourceTree = "<group>"; };
+		744AFAEC1FBE7A8800141173 /* PGGVideoViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGGVideoViewCell.m; sourceTree = "<group>"; };
+		744AFAED1FBE7A8800141173 /* PGGVideoViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PGGVideoViewCell.xib; sourceTree = "<group>"; };
+		744AFAF21FBE7E5900141173 /* Public.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Public.pch; sourceTree = "<group>"; };
+		744AFAF31FBE8D1300141173 /* PGG_DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGG_DetailViewController.h; sourceTree = "<group>"; };
+		744AFAF41FBE8D1300141173 /* PGG_DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGG_DetailViewController.m; sourceTree = "<group>"; };
+		747689041FCC4FA800320BB2 /* PGG_AudioUtillty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGG_AudioUtillty.h; sourceTree = "<group>"; };
+		747689051FCC4FA800320BB2 /* PGG_AudioUtillty.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGG_AudioUtillty.m; sourceTree = "<group>"; };
+		74AE97821FCD4ED400938C89 /* NSString+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Category.h"; sourceTree = "<group>"; };
+		74AE97831FCD4ED500938C89 /* UIImage+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Category.h"; sourceTree = "<group>"; };
+		74AE97841FCD4ED500938C89 /* NSString+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Category.m"; sourceTree = "<group>"; };
+		74AE97851FCD4ED500938C89 /* UIImage+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Category.m"; sourceTree = "<group>"; };
+		74AE97881FCD54D700938C89 /* PGG_PlayAudioController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGG_PlayAudioController.h; sourceTree = "<group>"; };
+		74AE97891FCD54D700938C89 /* PGG_PlayAudioController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGG_PlayAudioController.m; sourceTree = "<group>"; };
+		74D4C68A1FD0F24200768D19 /* PGG_DownCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGG_DownCell.h; sourceTree = "<group>"; };
+		74D4C68B1FD0F24200768D19 /* PGG_DownCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGG_DownCell.m; sourceTree = "<group>"; };
+		74D4C68C1FD0F24200768D19 /* PGG_DownCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PGG_DownCell.xib; sourceTree = "<group>"; };
+		74F5CB721FCAE212003409D6 /* PGG_NetWorking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGG_NetWorking.h; sourceTree = "<group>"; };
+		74F5CB731FCAE212003409D6 /* PGG_NetWorking.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGG_NetWorking.m; sourceTree = "<group>"; };
+		74F5CB751FCAFC31003409D6 /* pggmusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pggmusic.mp3; sourceTree = "<group>"; };
+		74F5CB7B1FCBBB3E003409D6 /* GPUImageBeautifyFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageBeautifyFilter.h; sourceTree = "<group>"; };
+		74F5CB7C1FCBBB3E003409D6 /* GPUImageBeautifyFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageBeautifyFilter.m; sourceTree = "<group>"; };
+		74F5CB7F1FCBFE14003409D6 /* HXAlbumListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXAlbumListView.h; sourceTree = "<group>"; };
+		74F5CB801FCBFE14003409D6 /* HXAlbumListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXAlbumListView.m; sourceTree = "<group>"; };
+		74F5CB811FCBFE14003409D6 /* HXAlbumListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXAlbumListViewController.h; sourceTree = "<group>"; };
+		74F5CB821FCBFE14003409D6 /* HXAlbumListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXAlbumListViewController.m; sourceTree = "<group>"; };
+		74F5CB831FCBFE14003409D6 /* HXAlbumModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXAlbumModel.h; sourceTree = "<group>"; };
+		74F5CB841FCBFE14003409D6 /* HXAlbumModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXAlbumModel.m; sourceTree = "<group>"; };
+		74F5CB851FCBFE14003409D6 /* HXAlbumTitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXAlbumTitleButton.h; sourceTree = "<group>"; };
+		74F5CB861FCBFE14003409D6 /* HXAlbumTitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXAlbumTitleButton.m; sourceTree = "<group>"; };
+		74F5CB871FCBFE14003409D6 /* HXCameraPreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXCameraPreviewViewController.h; sourceTree = "<group>"; };
+		74F5CB881FCBFE14003409D6 /* HXCameraPreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXCameraPreviewViewController.m; sourceTree = "<group>"; };
+		74F5CB891FCBFE14003409D6 /* HXCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXCameraViewController.h; sourceTree = "<group>"; };
+		74F5CB8A1FCBFE14003409D6 /* HXCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXCameraViewController.m; sourceTree = "<group>"; };
+		74F5CB8B1FCBFE14003409D6 /* HXCircleProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXCircleProgressView.h; sourceTree = "<group>"; };
+		74F5CB8C1FCBFE14003409D6 /* HXCircleProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXCircleProgressView.m; sourceTree = "<group>"; };
+		74F5CB8D1FCBFE14003409D6 /* HXCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXCollectionView.h; sourceTree = "<group>"; };
+		74F5CB8E1FCBFE14003409D6 /* HXCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXCollectionView.m; sourceTree = "<group>"; };
+		74F5CB8F1FCBFE14003409D6 /* HXCustomCameraController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXCustomCameraController.h; sourceTree = "<group>"; };
+		74F5CB901FCBFE14003409D6 /* HXCustomCameraController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXCustomCameraController.m; sourceTree = "<group>"; };
+		74F5CB911FCBFE14003409D6 /* HXCustomCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXCustomCameraViewController.h; sourceTree = "<group>"; };
+		74F5CB921FCBFE14003409D6 /* HXCustomCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXCustomCameraViewController.m; sourceTree = "<group>"; };
+		74F5CB931FCBFE14003409D6 /* HXCustomCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXCustomCollectionReusableView.h; sourceTree = "<group>"; };
+		74F5CB941FCBFE14003409D6 /* HXCustomCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXCustomCollectionReusableView.m; sourceTree = "<group>"; };
+		74F5CB951FCBFE14003409D6 /* HXCustomNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXCustomNavigationController.h; sourceTree = "<group>"; };
+		74F5CB961FCBFE14003409D6 /* HXCustomNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXCustomNavigationController.m; sourceTree = "<group>"; };
+		74F5CB971FCBFE14003409D6 /* HXCustomPreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXCustomPreviewView.h; sourceTree = "<group>"; };
+		74F5CB981FCBFE14003409D6 /* HXCustomPreviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXCustomPreviewView.m; sourceTree = "<group>"; };
+		74F5CB991FCBFE14003409D6 /* HXDatePhotoEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXDatePhotoEditViewController.h; sourceTree = "<group>"; };
+		74F5CB9A1FCBFE14003409D6 /* HXDatePhotoEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXDatePhotoEditViewController.m; sourceTree = "<group>"; };
+		74F5CB9B1FCBFE14003409D6 /* HXDatePhotoInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXDatePhotoInteractiveTransition.h; sourceTree = "<group>"; };
+		74F5CB9C1FCBFE14003409D6 /* HXDatePhotoInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXDatePhotoInteractiveTransition.m; sourceTree = "<group>"; };
+		74F5CB9D1FCBFE14003409D6 /* HXDatePhotoPreviewBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXDatePhotoPreviewBottomView.h; sourceTree = "<group>"; };
+		74F5CB9E1FCBFE14003409D6 /* HXDatePhotoPreviewBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXDatePhotoPreviewBottomView.m; sourceTree = "<group>"; };
+		74F5CB9F1FCBFE14003409D6 /* HXDatePhotoPreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXDatePhotoPreviewViewController.h; sourceTree = "<group>"; };
+		74F5CBA01FCBFE14003409D6 /* HXDatePhotoPreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXDatePhotoPreviewViewController.m; sourceTree = "<group>"; };
+		74F5CBA11FCBFE14003409D6 /* HXDatePhotoToolManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXDatePhotoToolManager.h; sourceTree = "<group>"; };
+		74F5CBA21FCBFE14003409D6 /* HXDatePhotoToolManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXDatePhotoToolManager.m; sourceTree = "<group>"; };
+		74F5CBA31FCBFE14003409D6 /* HXDatePhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXDatePhotoViewController.h; sourceTree = "<group>"; };
+		74F5CBA41FCBFE14003409D6 /* HXDatePhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXDatePhotoViewController.m; sourceTree = "<group>"; };
+		74F5CBA51FCBFE14003409D6 /* HXDatePhotoViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXDatePhotoViewFlowLayout.h; sourceTree = "<group>"; };
+		74F5CBA61FCBFE14003409D6 /* HXDatePhotoViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXDatePhotoViewFlowLayout.m; sourceTree = "<group>"; };
+		74F5CBA71FCBFE14003409D6 /* HXDatePhotoViewPresentTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXDatePhotoViewPresentTransition.h; sourceTree = "<group>"; };
+		74F5CBA81FCBFE14003409D6 /* HXDatePhotoViewPresentTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXDatePhotoViewPresentTransition.m; sourceTree = "<group>"; };
+		74F5CBA91FCBFE14003409D6 /* HXDatePhotoViewTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXDatePhotoViewTransition.h; sourceTree = "<group>"; };
+		74F5CBAA1FCBFE14003409D6 /* HXDatePhotoViewTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXDatePhotoViewTransition.m; sourceTree = "<group>"; };
+		74F5CBAB1FCBFE14003409D6 /* HXDownloadProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXDownloadProgressView.h; sourceTree = "<group>"; };
+		74F5CBAC1FCBFE14003409D6 /* HXDownloadProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXDownloadProgressView.m; sourceTree = "<group>"; };
+		74F5CBAD1FCBFE14003409D6 /* HXFullScreenCameraPlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXFullScreenCameraPlayView.h; sourceTree = "<group>"; };
+		74F5CBAE1FCBFE14003409D6 /* HXFullScreenCameraPlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXFullScreenCameraPlayView.m; sourceTree = "<group>"; };
+		74F5CBAF1FCBFE14003409D6 /* HXFullScreenCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXFullScreenCameraViewController.h; sourceTree = "<group>"; };
+		74F5CBB01FCBFE14003409D6 /* HXFullScreenCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXFullScreenCameraViewController.m; sourceTree = "<group>"; };
+		74F5CBB11FCBFE14003409D6 /* HXPhoto3DTouchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhoto3DTouchViewController.h; sourceTree = "<group>"; };
+		74F5CBB21FCBFE14003409D6 /* HXPhoto3DTouchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhoto3DTouchViewController.m; sourceTree = "<group>"; };
+		74F5CBB31FCBFE14003409D6 /* HXPhotoCustomNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoCustomNavigationBar.h; sourceTree = "<group>"; };
+		74F5CBB41FCBFE14003409D6 /* HXPhotoCustomNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoCustomNavigationBar.m; sourceTree = "<group>"; };
+		74F5CBB51FCBFE14003409D6 /* HXPhotoEditView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoEditView.h; sourceTree = "<group>"; };
+		74F5CBB61FCBFE14003409D6 /* HXPhotoEditView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoEditView.m; sourceTree = "<group>"; };
+		74F5CBB71FCBFE14003409D6 /* HXPhotoEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoEditViewController.h; sourceTree = "<group>"; };
+		74F5CBB81FCBFE14003409D6 /* HXPhotoEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoEditViewController.m; sourceTree = "<group>"; };
+		74F5CBB91FCBFE14003409D6 /* HXPhotoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoManager.h; sourceTree = "<group>"; };
+		74F5CBBA1FCBFE14003409D6 /* HXPhotoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoManager.m; sourceTree = "<group>"; };
+		74F5CBBB1FCBFE14003409D6 /* HXPhotoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoModel.h; sourceTree = "<group>"; };
+		74F5CBBC1FCBFE14003409D6 /* HXPhotoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoModel.m; sourceTree = "<group>"; };
+		74F5CBBD1FCBFE14003409D6 /* HXPhotoPreviewViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoPreviewViewCell.h; sourceTree = "<group>"; };
+		74F5CBBE1FCBFE14003409D6 /* HXPhotoPreviewViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoPreviewViewCell.m; sourceTree = "<group>"; };
+		74F5CBBF1FCBFE14003409D6 /* HXPhotoPreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoPreviewViewController.h; sourceTree = "<group>"; };
+		74F5CBC01FCBFE14003409D6 /* HXPhotoPreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoPreviewViewController.m; sourceTree = "<group>"; };
+		74F5CBC11FCBFE14003409D6 /* HXPhotoResultModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoResultModel.h; sourceTree = "<group>"; };
+		74F5CBC21FCBFE14003409D6 /* HXPhotoResultModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoResultModel.m; sourceTree = "<group>"; };
+		74F5CBC31FCBFE14003409D6 /* HXPhotoSubViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoSubViewCell.h; sourceTree = "<group>"; };
+		74F5CBC41FCBFE14003409D6 /* HXPhotoSubViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoSubViewCell.m; sourceTree = "<group>"; };
+		74F5CBC51FCBFE14003409D6 /* HXPhotoTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoTools.h; sourceTree = "<group>"; };
+		74F5CBC61FCBFE14003409D6 /* HXPhotoTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoTools.m; sourceTree = "<group>"; };
+		74F5CBC71FCBFE14003409D6 /* HXPhotoUIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoUIManager.h; sourceTree = "<group>"; };
+		74F5CBC81FCBFE14003409D6 /* HXPhotoUIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoUIManager.m; sourceTree = "<group>"; };
+		74F5CBC91FCBFE14003409D6 /* HXPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoView.h; sourceTree = "<group>"; };
+		74F5CBCA1FCBFE14003409D6 /* HXPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoView.m; sourceTree = "<group>"; };
+		74F5CBCB1FCBFE14003409D6 /* HXPhotoViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoViewCell.h; sourceTree = "<group>"; };
+		74F5CBCC1FCBFE14003409D6 /* HXPhotoViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoViewCell.m; sourceTree = "<group>"; };
+		74F5CBCD1FCBFE14003409D6 /* HXPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoViewController.h; sourceTree = "<group>"; };
+		74F5CBCE1FCBFE14003409D6 /* HXPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoViewController.m; sourceTree = "<group>"; };
+		74F5CBCF1FCBFE14003409D6 /* HXPresentTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPresentTransition.h; sourceTree = "<group>"; };
+		74F5CBD01FCBFE14003409D6 /* HXPresentTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPresentTransition.m; sourceTree = "<group>"; };
+		74F5CBD11FCBFE14003409D6 /* HXTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXTransition.h; sourceTree = "<group>"; };
+		74F5CBD21FCBFE14003409D6 /* HXTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXTransition.m; sourceTree = "<group>"; };
+		74F5CBD31FCBFE14003409D6 /* HXVideoPresentTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXVideoPresentTransition.h; sourceTree = "<group>"; };
+		74F5CBD41FCBFE14003409D6 /* HXVideoPresentTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXVideoPresentTransition.m; sourceTree = "<group>"; };
+		74F5CBD51FCBFE14003409D6 /* HXVideoPreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXVideoPreviewViewController.h; sourceTree = "<group>"; };
+		74F5CBD61FCBFE14003409D6 /* HXVideoPreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXVideoPreviewViewController.m; sourceTree = "<group>"; };
+		74F5CBD71FCBFE14003409D6 /* HXWeiboPhotoPicker.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HXWeiboPhotoPicker.bundle; sourceTree = "<group>"; };
+		74F5CBD81FCBFE14003409D6 /* NSBundle+HXWeiboPhotoPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+HXWeiboPhotoPicker.h"; sourceTree = "<group>"; };
+		74F5CBD91FCBFE14003409D6 /* NSBundle+HXWeiboPhotoPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+HXWeiboPhotoPicker.m"; sourceTree = "<group>"; };
+		74F5CBDA1FCBFE14003409D6 /* NSDate+HXExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+HXExtension.h"; sourceTree = "<group>"; };
+		74F5CBDB1FCBFE14003409D6 /* NSDate+HXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+HXExtension.m"; sourceTree = "<group>"; };
+		74F5CBDC1FCBFE14003409D6 /* UIButton+HXExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+HXExtension.h"; sourceTree = "<group>"; };
+		74F5CBDD1FCBFE14003409D6 /* UIButton+HXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+HXExtension.m"; sourceTree = "<group>"; };
+		74F5CBDE1FCBFE14003409D6 /* UIFont+HXExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+HXExtension.h"; sourceTree = "<group>"; };
+		74F5CBDF1FCBFE14003409D6 /* UIFont+HXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+HXExtension.m"; sourceTree = "<group>"; };
+		74F5CBE01FCBFE14003409D6 /* UIImage+HXExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+HXExtension.h"; sourceTree = "<group>"; };
+		74F5CBE11FCBFE14003409D6 /* UIImage+HXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HXExtension.m"; sourceTree = "<group>"; };
+		74F5CBE21FCBFE14003409D6 /* UIView+HXExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HXExtension.h"; sourceTree = "<group>"; };
+		74F5CBE31FCBFE14003409D6 /* UIView+HXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HXExtension.m"; sourceTree = "<group>"; };
+		98E776B27BD3AF29FF0568E3 /* Pods-PGGVideo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PGGVideo.release.xcconfig"; path = "Pods/Target Support Files/Pods-PGGVideo/Pods-PGGVideo.release.xcconfig"; sourceTree = "<group>"; };
+		FBD2F087957B5385B96249F4 /* libPods-PGGVideo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PGGVideo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +303,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A69AFC403F8848D3193CF9A /* libPods-PGGVideo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +324,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		66B66507F7175109E496042C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBD2F087957B5385B96249F4 /* libPods-PGGVideo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		741BEBF31FC3D5C200A8C488 /* XCGuideMaskView */ = {
+			isa = PBXGroup;
+			children = (
+				741BEBF41FC3D5C200A8C488 /* guide_arrow@3x.png */,
+				741BEBF51FC3D5C200A8C488 /* XCGuideMaskView.h */,
+				741BEBF61FC3D5C200A8C488 /* XCGuideMaskView.m */,
+			);
+			path = XCGuideMaskView;
+			sourceTree = "<group>";
+		};
 		742086511FBD1F2500EA1ED6 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +349,8 @@
 				742086751FBD1F2500EA1ED6 /* PGGVideoTests */,
 				742086801FBD1F2500EA1ED6 /* PGGVideoUITests */,
 				7420865B1FBD1F2500EA1ED6 /* Products */,
+				A77779FC1075BF488849F369 /* Pods */,
+				66B66507F7175109E496042C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +367,19 @@
 		7420865C1FBD1F2500EA1ED6 /* PGGVideo */ = {
 			isa = PBXGroup;
 			children = (
-				7420865D1FBD1F2500EA1ED6 /* AppDelegate.h */,
-				7420865E1FBD1F2500EA1ED6 /* AppDelegate.m */,
-				742086601FBD1F2500EA1ED6 /* ViewController.h */,
-				742086611FBD1F2500EA1ED6 /* ViewController.m */,
-				742086631FBD1F2500EA1ED6 /* Main.storyboard */,
-				742086661FBD1F2500EA1ED6 /* Assets.xcassets */,
-				742086681FBD1F2500EA1ED6 /* LaunchScreen.storyboard */,
-				7420866B1FBD1F2500EA1ED6 /* Info.plist */,
-				7420866C1FBD1F2500EA1ED6 /* main.m */,
+				74F5CB7E1FCBFE14003409D6 /* HXWeiboPhotoPicker */,
+				74F5CB7A1FCBBB11003409D6 /* GPUImageBeauty */,
+				74F5CB711FCAAFCD003409D6 /* NetWorking */,
+				7421ACF21FC51932009AB03A /* Utility */,
+				7421ACE71FC50982009AB03A /* DHGuidePageHUD */,
+				741BEBF31FC3D5C200A8C488 /* XCGuideMaskView */,
+				744AFAF11FBE7B1600141173 /* delegate */,
+				744AFAF01FBE7AFC00141173 /* source */,
+				742086961FBD41D900EA1ED6 /* AR */,
+				742086951FBD41D300EA1ED6 /* 音频录制 */,
+				742086941FBD41CC00EA1ED6 /* 视频编辑 */,
+				742086931FBD41C100EA1ED6 /* 视频播放 */,
+				742086921FBD41B500EA1ED6 /* 自拍 */,
 			);
 			path = PGGVideo;
 			sourceTree = "<group>";
@@ -132,6 +402,327 @@
 			path = PGGVideoUITests;
 			sourceTree = "<group>";
 		};
+		742086921FBD41B500EA1ED6 /* 自拍 */ = {
+			isa = PBXGroup;
+			children = (
+				74FFFA611FC6599E005EED56 /* C */,
+				74FFFA601FC65999005EED56 /* V */,
+				74FFFA5F1FC65994005EED56 /* M */,
+			);
+			path = "自拍";
+			sourceTree = "<group>";
+		};
+		742086931FBD41C100EA1ED6 /* 视频播放 */ = {
+			isa = PBXGroup;
+			children = (
+				744AFAE71FBE77F400141173 /* C */,
+				744AFAE61FBE77EF00141173 /* V */,
+				744AFAE51FBE77EB00141173 /* M */,
+				744AFAD31FBE6E3F00141173 /* WMPlayer */,
+			);
+			path = "视频播放";
+			sourceTree = "<group>";
+		};
+		742086941FBD41CC00EA1ED6 /* 视频编辑 */ = {
+			isa = PBXGroup;
+			children = (
+				7420869D1FBD424200EA1ED6 /* PGG_VideoEditingViewController.h */,
+				7420869E1FBD424200EA1ED6 /* PGG_VideoEditingViewController.m */,
+			);
+			path = "视频编辑";
+			sourceTree = "<group>";
+		};
+		742086951FBD41D300EA1ED6 /* 音频录制 */ = {
+			isa = PBXGroup;
+			children = (
+				742086A01FBD425000EA1ED6 /* PGG_BeautyViewController.h */,
+				742086A11FBD425000EA1ED6 /* PGG_BeautyViewController.m */,
+				74AE97881FCD54D700938C89 /* PGG_PlayAudioController.h */,
+				74AE97891FCD54D700938C89 /* PGG_PlayAudioController.m */,
+				747689041FCC4FA800320BB2 /* PGG_AudioUtillty.h */,
+				747689051FCC4FA800320BB2 /* PGG_AudioUtillty.m */,
+			);
+			path = "音频录制";
+			sourceTree = "<group>";
+		};
+		742086961FBD41D900EA1ED6 /* AR */ = {
+			isa = PBXGroup;
+			children = (
+				742086A31FBD425D00EA1ED6 /* PGG_ARViewController.h */,
+				742086A41FBD425D00EA1ED6 /* PGG_ARViewController.m */,
+			);
+			path = AR;
+			sourceTree = "<group>";
+		};
+		7421ACE71FC50982009AB03A /* DHGuidePageHUD */ = {
+			isa = PBXGroup;
+			children = (
+				7421ACE81FC50982009AB03A /* DHGifImageOperation.h */,
+				7421ACE91FC50982009AB03A /* DHGifImageOperation.m */,
+				7421ACEA1FC50982009AB03A /* DHGuidePageHUD.h */,
+				7421ACEB1FC50982009AB03A /* DHGuidePageHUD.m */,
+				7421ACEC1FC50982009AB03A /* GuideImage.bundle */,
+			);
+			path = DHGuidePageHUD;
+			sourceTree = "<group>";
+		};
+		7421ACF21FC51932009AB03A /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				7421ACF31FC5195B009AB03A /* Utility.h */,
+				7421ACF41FC5195B009AB03A /* Utility.m */,
+				74AE97821FCD4ED400938C89 /* NSString+Category.h */,
+				74AE97841FCD4ED500938C89 /* NSString+Category.m */,
+				74AE97831FCD4ED500938C89 /* UIImage+Category.h */,
+				74AE97851FCD4ED500938C89 /* UIImage+Category.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		744AFAD31FBE6E3F00141173 /* WMPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				744AFAD41FBE6E3F00141173 /* View */,
+				744AFADA1FBE6E3F00141173 /* WMPlayer.bundle */,
+				744AFADB1FBE6E3F00141173 /* WMPlayer.h */,
+				744AFADC1FBE6E3F00141173 /* WMPlayer.m */,
+			);
+			path = WMPlayer;
+			sourceTree = "<group>";
+		};
+		744AFAD41FBE6E3F00141173 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				744AFAD51FBE6E3F00141173 /* FastForwardView.h */,
+				744AFAD61FBE6E3F00141173 /* FastForwardView.m */,
+				744AFAD71FBE6E3F00141173 /* FastForwardView.xib */,
+				744AFAD81FBE6E3F00141173 /* WMLightView.h */,
+				744AFAD91FBE6E3F00141173 /* WMLightView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		744AFAE51FBE77EB00141173 /* M */ = {
+			isa = PBXGroup;
+			children = (
+				744AFAE81FBE795000141173 /* PGGVideoModel.h */,
+				744AFAE91FBE795000141173 /* PGGVideoModel.m */,
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		744AFAE61FBE77EF00141173 /* V */ = {
+			isa = PBXGroup;
+			children = (
+				744AFAEB1FBE7A8800141173 /* PGGVideoViewCell.h */,
+				744AFAEC1FBE7A8800141173 /* PGGVideoViewCell.m */,
+				744AFAED1FBE7A8800141173 /* PGGVideoViewCell.xib */,
+				74D4C68A1FD0F24200768D19 /* PGG_DownCell.h */,
+				74D4C68B1FD0F24200768D19 /* PGG_DownCell.m */,
+				74D4C68C1FD0F24200768D19 /* PGG_DownCell.xib */,
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		744AFAE71FBE77F400141173 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				7420869A1FBD423100EA1ED6 /* PGG_VideoPlayViewController.h */,
+				7420869B1FBD423100EA1ED6 /* PGG_VideoPlayViewController.m */,
+				74444E1B1FCFA46A00BB5492 /* PGG_DownLoadViewController.h */,
+				74444E1C1FCFA46A00BB5492 /* PGG_DownLoadViewController.m */,
+				744AFAF31FBE8D1300141173 /* PGG_DetailViewController.h */,
+				744AFAF41FBE8D1300141173 /* PGG_DetailViewController.m */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		744AFAF01FBE7AFC00141173 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				74F5CB751FCAFC31003409D6 /* pggmusic.mp3 */,
+				7421ACF01FC50A6E009AB03A /* guideMovie.mov */,
+				742086631FBD1F2500EA1ED6 /* Main.storyboard */,
+				742086661FBD1F2500EA1ED6 /* Assets.xcassets */,
+				742086681FBD1F2500EA1ED6 /* LaunchScreen.storyboard */,
+				7420866B1FBD1F2500EA1ED6 /* Info.plist */,
+				7420866C1FBD1F2500EA1ED6 /* main.m */,
+				744AFAF21FBE7E5900141173 /* Public.pch */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+		744AFAF11FBE7B1600141173 /* delegate */ = {
+			isa = PBXGroup;
+			children = (
+				7420865D1FBD1F2500EA1ED6 /* AppDelegate.h */,
+				7420865E1FBD1F2500EA1ED6 /* AppDelegate.m */,
+				742086601FBD1F2500EA1ED6 /* ViewController.h */,
+				742086611FBD1F2500EA1ED6 /* ViewController.m */,
+			);
+			path = delegate;
+			sourceTree = "<group>";
+		};
+		74F5CB711FCAAFCD003409D6 /* NetWorking */ = {
+			isa = PBXGroup;
+			children = (
+				74F5CB721FCAE212003409D6 /* PGG_NetWorking.h */,
+				74F5CB731FCAE212003409D6 /* PGG_NetWorking.m */,
+				74444E1E1FCFD41600BB5492 /* PGG_DownModel.h */,
+				74444E1F1FCFD41600BB5492 /* PGG_DownModel.m */,
+			);
+			path = NetWorking;
+			sourceTree = "<group>";
+		};
+		74F5CB7A1FCBBB11003409D6 /* GPUImageBeauty */ = {
+			isa = PBXGroup;
+			children = (
+				74F5CB7B1FCBBB3E003409D6 /* GPUImageBeautifyFilter.h */,
+				74F5CB7C1FCBBB3E003409D6 /* GPUImageBeautifyFilter.m */,
+			);
+			path = GPUImageBeauty;
+			sourceTree = "<group>";
+		};
+		74F5CB7E1FCBFE14003409D6 /* HXWeiboPhotoPicker */ = {
+			isa = PBXGroup;
+			children = (
+				74F5CB7F1FCBFE14003409D6 /* HXAlbumListView.h */,
+				74F5CB801FCBFE14003409D6 /* HXAlbumListView.m */,
+				74F5CB811FCBFE14003409D6 /* HXAlbumListViewController.h */,
+				74F5CB821FCBFE14003409D6 /* HXAlbumListViewController.m */,
+				74F5CB831FCBFE14003409D6 /* HXAlbumModel.h */,
+				74F5CB841FCBFE14003409D6 /* HXAlbumModel.m */,
+				74F5CB851FCBFE14003409D6 /* HXAlbumTitleButton.h */,
+				74F5CB861FCBFE14003409D6 /* HXAlbumTitleButton.m */,
+				74F5CB871FCBFE14003409D6 /* HXCameraPreviewViewController.h */,
+				74F5CB881FCBFE14003409D6 /* HXCameraPreviewViewController.m */,
+				74F5CB891FCBFE14003409D6 /* HXCameraViewController.h */,
+				74F5CB8A1FCBFE14003409D6 /* HXCameraViewController.m */,
+				74F5CB8B1FCBFE14003409D6 /* HXCircleProgressView.h */,
+				74F5CB8C1FCBFE14003409D6 /* HXCircleProgressView.m */,
+				74F5CB8D1FCBFE14003409D6 /* HXCollectionView.h */,
+				74F5CB8E1FCBFE14003409D6 /* HXCollectionView.m */,
+				74F5CB8F1FCBFE14003409D6 /* HXCustomCameraController.h */,
+				74F5CB901FCBFE14003409D6 /* HXCustomCameraController.m */,
+				74F5CB911FCBFE14003409D6 /* HXCustomCameraViewController.h */,
+				74F5CB921FCBFE14003409D6 /* HXCustomCameraViewController.m */,
+				74F5CB931FCBFE14003409D6 /* HXCustomCollectionReusableView.h */,
+				74F5CB941FCBFE14003409D6 /* HXCustomCollectionReusableView.m */,
+				74F5CB951FCBFE14003409D6 /* HXCustomNavigationController.h */,
+				74F5CB961FCBFE14003409D6 /* HXCustomNavigationController.m */,
+				74F5CB971FCBFE14003409D6 /* HXCustomPreviewView.h */,
+				74F5CB981FCBFE14003409D6 /* HXCustomPreviewView.m */,
+				74F5CB991FCBFE14003409D6 /* HXDatePhotoEditViewController.h */,
+				74F5CB9A1FCBFE14003409D6 /* HXDatePhotoEditViewController.m */,
+				74F5CB9B1FCBFE14003409D6 /* HXDatePhotoInteractiveTransition.h */,
+				74F5CB9C1FCBFE14003409D6 /* HXDatePhotoInteractiveTransition.m */,
+				74F5CB9D1FCBFE14003409D6 /* HXDatePhotoPreviewBottomView.h */,
+				74F5CB9E1FCBFE14003409D6 /* HXDatePhotoPreviewBottomView.m */,
+				74F5CB9F1FCBFE14003409D6 /* HXDatePhotoPreviewViewController.h */,
+				74F5CBA01FCBFE14003409D6 /* HXDatePhotoPreviewViewController.m */,
+				74F5CBA11FCBFE14003409D6 /* HXDatePhotoToolManager.h */,
+				74F5CBA21FCBFE14003409D6 /* HXDatePhotoToolManager.m */,
+				74F5CBA31FCBFE14003409D6 /* HXDatePhotoViewController.h */,
+				74F5CBA41FCBFE14003409D6 /* HXDatePhotoViewController.m */,
+				74F5CBA51FCBFE14003409D6 /* HXDatePhotoViewFlowLayout.h */,
+				74F5CBA61FCBFE14003409D6 /* HXDatePhotoViewFlowLayout.m */,
+				74F5CBA71FCBFE14003409D6 /* HXDatePhotoViewPresentTransition.h */,
+				74F5CBA81FCBFE14003409D6 /* HXDatePhotoViewPresentTransition.m */,
+				74F5CBA91FCBFE14003409D6 /* HXDatePhotoViewTransition.h */,
+				74F5CBAA1FCBFE14003409D6 /* HXDatePhotoViewTransition.m */,
+				74F5CBAB1FCBFE14003409D6 /* HXDownloadProgressView.h */,
+				74F5CBAC1FCBFE14003409D6 /* HXDownloadProgressView.m */,
+				74F5CBAD1FCBFE14003409D6 /* HXFullScreenCameraPlayView.h */,
+				74F5CBAE1FCBFE14003409D6 /* HXFullScreenCameraPlayView.m */,
+				74F5CBAF1FCBFE14003409D6 /* HXFullScreenCameraViewController.h */,
+				74F5CBB01FCBFE14003409D6 /* HXFullScreenCameraViewController.m */,
+				74F5CBB11FCBFE14003409D6 /* HXPhoto3DTouchViewController.h */,
+				74F5CBB21FCBFE14003409D6 /* HXPhoto3DTouchViewController.m */,
+				74F5CBB31FCBFE14003409D6 /* HXPhotoCustomNavigationBar.h */,
+				74F5CBB41FCBFE14003409D6 /* HXPhotoCustomNavigationBar.m */,
+				74F5CBB51FCBFE14003409D6 /* HXPhotoEditView.h */,
+				74F5CBB61FCBFE14003409D6 /* HXPhotoEditView.m */,
+				74F5CBB71FCBFE14003409D6 /* HXPhotoEditViewController.h */,
+				74F5CBB81FCBFE14003409D6 /* HXPhotoEditViewController.m */,
+				74F5CBB91FCBFE14003409D6 /* HXPhotoManager.h */,
+				74F5CBBA1FCBFE14003409D6 /* HXPhotoManager.m */,
+				74F5CBBB1FCBFE14003409D6 /* HXPhotoModel.h */,
+				74F5CBBC1FCBFE14003409D6 /* HXPhotoModel.m */,
+				74F5CBBD1FCBFE14003409D6 /* HXPhotoPreviewViewCell.h */,
+				74F5CBBE1FCBFE14003409D6 /* HXPhotoPreviewViewCell.m */,
+				74F5CBBF1FCBFE14003409D6 /* HXPhotoPreviewViewController.h */,
+				74F5CBC01FCBFE14003409D6 /* HXPhotoPreviewViewController.m */,
+				74F5CBC11FCBFE14003409D6 /* HXPhotoResultModel.h */,
+				74F5CBC21FCBFE14003409D6 /* HXPhotoResultModel.m */,
+				74F5CBC31FCBFE14003409D6 /* HXPhotoSubViewCell.h */,
+				74F5CBC41FCBFE14003409D6 /* HXPhotoSubViewCell.m */,
+				74F5CBC51FCBFE14003409D6 /* HXPhotoTools.h */,
+				74F5CBC61FCBFE14003409D6 /* HXPhotoTools.m */,
+				74F5CBC71FCBFE14003409D6 /* HXPhotoUIManager.h */,
+				74F5CBC81FCBFE14003409D6 /* HXPhotoUIManager.m */,
+				74F5CBC91FCBFE14003409D6 /* HXPhotoView.h */,
+				74F5CBCA1FCBFE14003409D6 /* HXPhotoView.m */,
+				74F5CBCB1FCBFE14003409D6 /* HXPhotoViewCell.h */,
+				74F5CBCC1FCBFE14003409D6 /* HXPhotoViewCell.m */,
+				74F5CBCD1FCBFE14003409D6 /* HXPhotoViewController.h */,
+				74F5CBCE1FCBFE14003409D6 /* HXPhotoViewController.m */,
+				74F5CBCF1FCBFE14003409D6 /* HXPresentTransition.h */,
+				74F5CBD01FCBFE14003409D6 /* HXPresentTransition.m */,
+				74F5CBD11FCBFE14003409D6 /* HXTransition.h */,
+				74F5CBD21FCBFE14003409D6 /* HXTransition.m */,
+				74F5CBD31FCBFE14003409D6 /* HXVideoPresentTransition.h */,
+				74F5CBD41FCBFE14003409D6 /* HXVideoPresentTransition.m */,
+				74F5CBD51FCBFE14003409D6 /* HXVideoPreviewViewController.h */,
+				74F5CBD61FCBFE14003409D6 /* HXVideoPreviewViewController.m */,
+				74F5CBD71FCBFE14003409D6 /* HXWeiboPhotoPicker.bundle */,
+				74F5CBD81FCBFE14003409D6 /* NSBundle+HXWeiboPhotoPicker.h */,
+				74F5CBD91FCBFE14003409D6 /* NSBundle+HXWeiboPhotoPicker.m */,
+				74F5CBDA1FCBFE14003409D6 /* NSDate+HXExtension.h */,
+				74F5CBDB1FCBFE14003409D6 /* NSDate+HXExtension.m */,
+				74F5CBDC1FCBFE14003409D6 /* UIButton+HXExtension.h */,
+				74F5CBDD1FCBFE14003409D6 /* UIButton+HXExtension.m */,
+				74F5CBDE1FCBFE14003409D6 /* UIFont+HXExtension.h */,
+				74F5CBDF1FCBFE14003409D6 /* UIFont+HXExtension.m */,
+				74F5CBE01FCBFE14003409D6 /* UIImage+HXExtension.h */,
+				74F5CBE11FCBFE14003409D6 /* UIImage+HXExtension.m */,
+				74F5CBE21FCBFE14003409D6 /* UIView+HXExtension.h */,
+				74F5CBE31FCBFE14003409D6 /* UIView+HXExtension.m */,
+			);
+			path = HXWeiboPhotoPicker;
+			sourceTree = "<group>";
+		};
+		74FFFA5F1FC65994005EED56 /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		74FFFA601FC65999005EED56 /* V */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		74FFFA611FC6599E005EED56 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				742086971FBD422100EA1ED6 /* PGG_SelfieViewController.h */,
+				742086981FBD422100EA1ED6 /* PGG_SelfieViewController.m */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		A77779FC1075BF488849F369 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				253093261F8EFE0725436A6D /* Pods-PGGVideo.debug.xcconfig */,
+				98E776B27BD3AF29FF0568E3 /* Pods-PGGVideo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +730,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 742086861FBD1F2500EA1ED6 /* Build configuration list for PBXNativeTarget "PGGVideo" */;
 			buildPhases = (
+				E73505CE3F46D8285A1F77DD /* [CP] Check Pods Manifest.lock */,
 				742086561FBD1F2500EA1ED6 /* Sources */,
 				742086571FBD1F2500EA1ED6 /* Frameworks */,
 				742086581FBD1F2500EA1ED6 /* Resources */,
+				9F783E8D7BC874ED10F04048 /* [CP] Embed Pods Frameworks */,
+				130C9D68F3E142605FF1F0BA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,6 +788,7 @@
 		742086521FBD1F2500EA1ED6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = PGG_;
 				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = penggege.CP;
 				TargetAttributes = {
@@ -238,8 +833,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				741BEBF71FC3D5C300A8C488 /* guide_arrow@3x.png in Resources */,
 				7420866A1FBD1F2500EA1ED6 /* LaunchScreen.storyboard in Resources */,
+				744AFAEF1FBE7A8800141173 /* PGGVideoViewCell.xib in Resources */,
+				74F5CB761FCAFC31003409D6 /* pggmusic.mp3 in Resources */,
 				742086671FBD1F2500EA1ED6 /* Assets.xcassets in Resources */,
+				744AFADE1FBE6E3F00141173 /* FastForwardView.xib in Resources */,
+				74D4C68E1FD0F24200768D19 /* PGG_DownCell.xib in Resources */,
+				7421ACEF1FC50983009AB03A /* GuideImage.bundle in Resources */,
+				74F5CC101FCBFE15003409D6 /* HXWeiboPhotoPicker.bundle in Resources */,
+				744AFAE01FBE6E3F00141173 /* WMPlayer.bundle in Resources */,
+				7421ACF11FC50A6F009AB03A /* guideMovie.mov in Resources */,
 				742086651FBD1F2500EA1ED6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,14 +864,151 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		130C9D68F3E142605FF1F0BA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PGGVideo/Pods-PGGVideo-resources.sh",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_amatorka.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_miss_etikate.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_1.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_2.png",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/MMImagePicker/MMImagePicker/MMImagePicker.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+				"${PODS_ROOT}/UMengUShare/UShareSDK/UMSocialSDK/UMSocialSDKPromptResources.bundle",
+				"${PODS_ROOT}/UMengUShare/UShareSDK/SocialLibraries/QQ/QQSDK/TencentOpenApi_IOS_Bundle.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PGGVideo/Pods-PGGVideo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F783E8D7BC874ED10F04048 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PGGVideo/Pods-PGGVideo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E73505CE3F46D8285A1F77DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PGGVideo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		742086561FBD1F2500EA1ED6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74F5CB741FCAE212003409D6 /* PGG_NetWorking.m in Sources */,
+				74F5CC0A1FCBFE15003409D6 /* HXPhotoViewCell.m in Sources */,
+				742086A51FBD425D00EA1ED6 /* PGG_ARViewController.m in Sources */,
+				74F5CBE91FCBFE15003409D6 /* HXCameraViewController.m in Sources */,
 				742086621FBD1F2500EA1ED6 /* ViewController.m in Sources */,
+				74F5CC081FCBFE15003409D6 /* HXPhotoUIManager.m in Sources */,
+				744AFAF61FBE8D1300141173 /* PGG_DetailViewController.m in Sources */,
+				74F5CBFA1FCBFE15003409D6 /* HXDownloadProgressView.m in Sources */,
+				74F5CC031FCBFE15003409D6 /* HXPhotoPreviewViewCell.m in Sources */,
+				74F5CBEB1FCBFE15003409D6 /* HXCollectionView.m in Sources */,
+				74F5CBF91FCBFE15003409D6 /* HXDatePhotoViewTransition.m in Sources */,
+				74F5CBFC1FCBFE15003409D6 /* HXFullScreenCameraViewController.m in Sources */,
+				74F5CC111FCBFE15003409D6 /* NSBundle+HXWeiboPhotoPicker.m in Sources */,
+				742086991FBD422100EA1ED6 /* PGG_SelfieViewController.m in Sources */,
+				7421ACF51FC5195B009AB03A /* Utility.m in Sources */,
+				74F5CC0B1FCBFE15003409D6 /* HXPhotoViewController.m in Sources */,
+				7420869F1FBD424200EA1ED6 /* PGG_VideoEditingViewController.m in Sources */,
+				744AFAEE1FBE7A8800141173 /* PGGVideoViewCell.m in Sources */,
+				74F5CC121FCBFE15003409D6 /* NSDate+HXExtension.m in Sources */,
+				74F5CBE81FCBFE15003409D6 /* HXCameraPreviewViewController.m in Sources */,
+				74F5CC091FCBFE15003409D6 /* HXPhotoView.m in Sources */,
+				7421ACEE1FC50983009AB03A /* DHGuidePageHUD.m in Sources */,
+				74F5CC0D1FCBFE15003409D6 /* HXTransition.m in Sources */,
+				7421ACED1FC50983009AB03A /* DHGifImageOperation.m in Sources */,
+				74F5CBF61FCBFE15003409D6 /* HXDatePhotoViewController.m in Sources */,
+				74F5CC151FCBFE15003409D6 /* UIImage+HXExtension.m in Sources */,
+				74F5CC001FCBFE15003409D6 /* HXPhotoEditViewController.m in Sources */,
+				74F5CBE71FCBFE15003409D6 /* HXAlbumTitleButton.m in Sources */,
+				74F5CBE51FCBFE15003409D6 /* HXAlbumListViewController.m in Sources */,
+				74F5CC141FCBFE15003409D6 /* UIFont+HXExtension.m in Sources */,
+				74F5CBF71FCBFE15003409D6 /* HXDatePhotoViewFlowLayout.m in Sources */,
+				74F5CC161FCBFE15003409D6 /* UIView+HXExtension.m in Sources */,
+				74F5CC131FCBFE15003409D6 /* UIButton+HXExtension.m in Sources */,
+				74F5CBE61FCBFE15003409D6 /* HXAlbumModel.m in Sources */,
 				7420866D1FBD1F2500EA1ED6 /* main.m in Sources */,
+				74F5CC0C1FCBFE15003409D6 /* HXPresentTransition.m in Sources */,
+				74F5CB7D1FCBBB3E003409D6 /* GPUImageBeautifyFilter.m in Sources */,
+				74F5CBEA1FCBFE15003409D6 /* HXCircleProgressView.m in Sources */,
+				74F5CBEF1FCBFE15003409D6 /* HXCustomNavigationController.m in Sources */,
 				7420865F1FBD1F2500EA1ED6 /* AppDelegate.m in Sources */,
+				7420869C1FBD423100EA1ED6 /* PGG_VideoPlayViewController.m in Sources */,
+				741BEBF81FC3D5C300A8C488 /* XCGuideMaskView.m in Sources */,
+				74F5CBF51FCBFE15003409D6 /* HXDatePhotoToolManager.m in Sources */,
+				74AE97861FCD4ED500938C89 /* NSString+Category.m in Sources */,
+				74F5CBF31FCBFE15003409D6 /* HXDatePhotoPreviewBottomView.m in Sources */,
+				74F5CC0F1FCBFE15003409D6 /* HXVideoPreviewViewController.m in Sources */,
+				74F5CC0E1FCBFE15003409D6 /* HXVideoPresentTransition.m in Sources */,
+				74F5CBFD1FCBFE15003409D6 /* HXPhoto3DTouchViewController.m in Sources */,
+				744AFADF1FBE6E3F00141173 /* WMLightView.m in Sources */,
+				74F5CC011FCBFE15003409D6 /* HXPhotoManager.m in Sources */,
+				74F5CC041FCBFE15003409D6 /* HXPhotoPreviewViewController.m in Sources */,
+				744AFAEA1FBE795000141173 /* PGGVideoModel.m in Sources */,
+				742086A21FBD425000EA1ED6 /* PGG_BeautyViewController.m in Sources */,
+				74AE978A1FCD54D700938C89 /* PGG_PlayAudioController.m in Sources */,
+				74444E1D1FCFA46A00BB5492 /* PGG_DownLoadViewController.m in Sources */,
+				74F5CBF11FCBFE15003409D6 /* HXDatePhotoEditViewController.m in Sources */,
+				74F5CBF81FCBFE15003409D6 /* HXDatePhotoViewPresentTransition.m in Sources */,
+				74F5CBEE1FCBFE15003409D6 /* HXCustomCollectionReusableView.m in Sources */,
+				74F5CBF41FCBFE15003409D6 /* HXDatePhotoPreviewViewController.m in Sources */,
+				74F5CBF01FCBFE15003409D6 /* HXCustomPreviewView.m in Sources */,
+				74D4C68D1FD0F24200768D19 /* PGG_DownCell.m in Sources */,
+				74F5CBE41FCBFE15003409D6 /* HXAlbumListView.m in Sources */,
+				74F5CC061FCBFE15003409D6 /* HXPhotoSubViewCell.m in Sources */,
+				744AFAE11FBE6E3F00141173 /* WMPlayer.m in Sources */,
+				74F5CBFE1FCBFE15003409D6 /* HXPhotoCustomNavigationBar.m in Sources */,
+				747689061FCC4FA800320BB2 /* PGG_AudioUtillty.m in Sources */,
+				74F5CC021FCBFE15003409D6 /* HXPhotoModel.m in Sources */,
+				74F5CBEC1FCBFE15003409D6 /* HXCustomCameraController.m in Sources */,
+				74AE97871FCD4ED500938C89 /* UIImage+Category.m in Sources */,
+				74444E201FCFD41600BB5492 /* PGG_DownModel.m in Sources */,
+				74F5CBFF1FCBFE15003409D6 /* HXPhotoEditView.m in Sources */,
+				744AFADD1FBE6E3F00141173 /* FastForwardView.m in Sources */,
+				74F5CC071FCBFE15003409D6 /* HXPhotoTools.m in Sources */,
+				74F5CC051FCBFE15003409D6 /* HXPhotoResultModel.m in Sources */,
+				74F5CBF21FCBFE15003409D6 /* HXDatePhotoInteractiveTransition.m in Sources */,
+				74F5CBED1FCBFE15003409D6 /* HXCustomCameraViewController.m in Sources */,
+				74F5CBFB1FCBFE15003409D6 /* HXFullScreenCameraPlayView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,11 +1169,16 @@
 		};
 		742086871FBD1F2500EA1ED6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 253093261F8EFE0725436A6D /* Pods-PGGVideo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H5K6RS22WJ;
-				INFOPLIST_FILE = PGGVideo/Info.plist;
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PGGVideo/source/Public.pch;
+				INFOPLIST_FILE = "$(SRCROOT)/PGGVideo/source/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.penggege.PGGVideo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -442,11 +1188,16 @@
 		};
 		742086881FBD1F2500EA1ED6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98E776B27BD3AF29FF0568E3 /* Pods-PGGVideo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H5K6RS22WJ;
-				INFOPLIST_FILE = PGGVideo/Info.plist;
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PGGVideo/source/Public.pch;
+				INFOPLIST_FILE = "$(SRCROOT)/PGGVideo/source/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.penggege.PGGVideo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
