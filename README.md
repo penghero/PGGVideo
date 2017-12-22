@@ -17,6 +17,7 @@
 感谢大神的优秀代码。
 主要代码:
 #pragma mark 开始播放方法
+```
 - (void) startPlayVideo:(UIButton *)sender {
     PGGLog(@"开始播放视频%ld",(long)sender.tag);
     currentIndexPath = [NSIndexPath indexPathForRow:sender.tag inSection:0];
@@ -55,6 +56,8 @@
     [self.currentCell.openVideo.superview sendSubviewToBack:self.currentCell.openVideo];
     [self.tableView reloadData];
 }
+```
+```
 #pragma mark scrollView delegate 滑动超出屏幕 关闭播放器 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView
 {
@@ -74,9 +77,11 @@
         }
     }
 }
+```
 # 音频录制
 使用AVFoundation框架下的AVAudioRecorder进行录制的，值得一提的是 使用了lame进行音频转码 因为手机录制好的音频格式是aac，caf的格式，这些格式并不能进行播放，需要转成mp3格式 对其进行余下操作。
 主要代码为：
+```
     //音频转码caf转map3
 - (NSString *)audioToMP3:(NSString *)cafPath
 {
@@ -121,9 +126,11 @@
     }
     return nil;
 }
+```
 # 自拍
 在AVFoundation框架下进行相机的高度自定义，包括，自定义相册采用的是HXAlbumListViewController，聚焦，缩放，镜头翻转（带翻转动画），全屏小屏互换，闪光灯设置，录像等等。感谢《微博照片选择》的优秀代码。
 主要方法：
+```
 #pragma mark - 镜头转换事件
 - (void)frontAction {
     NSArray *inputs = captureSession.inputs;
@@ -257,16 +264,20 @@
         [self.previewBtn setBackgroundImage:nil forState:UIControlStateNormal];
     }
 }
+```
 美颜，贴图，滤镜方法后续添加。
 # AR
 在ARKit和SceneKit框架下实现的AR简单体验功能。
 主要的使用的类
+ ```
 /*AR视图：展示3D界面*/
 @property (nonatomic, strong)ARSCNView *arSCNView;
 /*AR会话，负责管理相机追踪配置及3D相机坐标*/
 @property(nonatomic,strong)ARSession *arSession;
  /*会话追踪配置*/
 @property(nonatomic,strong)ARWorldTrackingConfiguration *arSessionConfiguration;
+```
+```
 #pragma mark - 初始化ARSCNView 用来加载AR的3D场景视图
 - (ARSCNView *)arSCNView {
     if (!_arSCNView ) {
@@ -281,6 +292,8 @@
     }
     return _arSCNView;
 }
+```
+```
 #pragma mark - ARSessionConfiguration(会话追踪配置)主要目的就是负责追踪相机在3D世界中的位置以及一些特征场景的捕捉，需要配置一些参数
 - (ARWorldTrackingConfiguration *)arSessionConfiguration {
     if (!_arSessionConfiguration) {
@@ -302,6 +315,7 @@
     }
     return _arSession;
 }
+```
 对节点的一些普及知识：
 /*
  * SceneNode
